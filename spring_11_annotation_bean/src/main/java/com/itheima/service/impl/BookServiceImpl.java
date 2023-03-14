@@ -4,6 +4,8 @@ import com.itheima.dao.BookDao;
 import com.itheima.service.BookService;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
+
+
 //@Component定义bean
 //@Component
 //@Service：@Component衍生注解

@@ -1,15 +1,12 @@
 package com.itheima.dao.impl;
 
 import com.itheima.dao.BookDao;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Controller;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
-//@Component//定义bean
-//@Component("bookDao")
-//@Repository：@Component衍生注解
-@Repository("bookDao")
+@Repository
 public class BookDaoImpl implements BookDao {
+
     public void save() {
         System.out.println("book dao save ...");
     }
