@@ -13,7 +13,7 @@ public class LogServiceImpl implements LogService {
     @Autowired
     private LogDao logDao;
 
-    public void log(String out,String in,Double money ) {
+    public void log(String out,String in,Integer money ) {
         logDao.log("转账操作由"+out+"到"+in+",金额："+money);
     }
 }

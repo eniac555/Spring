@@ -14,9 +14,10 @@ public class AccountServiceImpl implements AccountService {
     @Autowired
     private AccountDao accountDao;
 
+
     public void transfer(String out,String in ,Double money) {
         accountDao.outMoney(out,money);
-        int i = 1/0;
+        //int i = 1/0;
         accountDao.inMoney(in,money);
     }
 

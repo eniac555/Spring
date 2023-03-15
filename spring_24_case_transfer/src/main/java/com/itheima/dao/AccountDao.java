@@ -5,6 +5,8 @@ import org.apache.ibatis.annotations.Update;
 
 public interface AccountDao {
 
+    //通过SQL语句进行的数据库操作
+
     @Update("update tbl_account set money = money + #{money} where name = #{name}")
     void inMoney(@Param("name") String name, @Param("money") Double money);
 

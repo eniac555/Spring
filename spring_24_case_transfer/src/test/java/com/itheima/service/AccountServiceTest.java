@@ -18,7 +18,7 @@ public class AccountServiceTest {
 
     @Test
     public void testTransfer() throws IOException {
-        accountService.transfer("Tom","Jerry",100D);
+        accountService.transfer("Mo Wai Lam","Kam On Kay",100D);
     }
 
 }
